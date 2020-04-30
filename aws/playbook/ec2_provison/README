@@ -1,0 +1,5 @@
+Please ensure you update variable file as per your environement.
+
+ec2_keypair: "Ansible"
+ec2_security_group_id: "sg-0f398cc92583b8438"
+ec2_subnet_id: "subnet-2081b55a"
