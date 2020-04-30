@@ -1,4 +1,4 @@
-Please ensure you update variables.yml file as per your environement.
+Please ensure you update variables.yml file (atleast following values) as per your environement.
 
 ec2_keypair: ""
 ec2_security_group_id: ""
