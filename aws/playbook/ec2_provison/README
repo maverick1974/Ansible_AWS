@@ -1,5 +1,0 @@
-Please ensure you update variables.yml file (atleast following values) as per your environement.
-
-ec2_keypair: ""
-ec2_security_group_id: ""
-ec2_subnet_id: ""
