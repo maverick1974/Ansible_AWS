@@ -1,6 +1,6 @@
 ec2_region: "us-east-2"
 ec2_instance_type: "t2.micro"
-ec2_image: "ami-8c122be9"
+ec2_image: "ami-0e84e211558a022c0"
 ec2_keypair: "Ansible"
 ec2_volume_size: "10"
 ec2_count: "1"
