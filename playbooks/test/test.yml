@@ -1,0 +1,6 @@
+- hosts: ansible-node
+  tasks:
+  - name: create directory example
+    file:
+      path: /tmp/devops
+      state: directory
