@@ -17,8 +17,8 @@ Quick Steps:
 
 ### 1. Obtain the playbook
 ```shell
-git clone https://github.com/do-community/ansible-playbooks.git
-cd ansible-playbooks/docker_ubuntu1804
+git clone https://github.com/snjksh82/Ansible_AWS.git
+cd Ansible_AWS/playbooks/docker_ubuntu2004
 ```
 
 ### 2. Customize Options
@@ -39,4 +39,4 @@ default_container_command: sleep 1d
 ### 3. Run the Playbook
 
 ```command
-ansible-playbook -l [target] -i [inventory file] -u [remote user] playbook.yml
+ansible-playbook playbook.yml -l [target] --private-key [.pem] -u [remote user] 
