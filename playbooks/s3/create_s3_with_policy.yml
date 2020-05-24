@@ -1,0 +1,15 @@
+# Create a bucket, add a policy from a file, select region, enable versioning and tag
+
+---
+- hosts: localhost
+  tasks:
+  - name: create S3 bucket
+    s3_bucket:
+      name: ansbkt25
+      policy: "{{ lookup( 'file','my_bucket_policy.json' )}}"
+      state: present
+      region: us-east-2
+      versioning: yes
+      tags:
+         name: ansiblebucket
+         type: example_policy

@@ -1,0 +1,9 @@
+# Create a simple s3 bucket
+---
+- hosts: localhost
+  tasks:
+  - name: create S3 bucket
+    s3_bucket:
+      name: ansbkt24
+      state: present
+      versioning: no
